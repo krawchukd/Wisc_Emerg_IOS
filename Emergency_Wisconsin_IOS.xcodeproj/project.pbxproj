@@ -83,14 +83,9 @@
 		5B51854F1AD467EB001CB25D /* Emergency_Wisconsin_IOS */ = {
 			isa = PBXGroup;
 			children = (
-				5B5185541AD467EB001CB25D /* AppDelegate.h */,
-				5B5185551AD467EB001CB25D /* AppDelegate.m */,
 				5B51855A1AD467EB001CB25D /* ViewController.h */,
 				5B51855B1AD467EB001CB25D /* ViewController.m */,
 				5B51855D1AD467EB001CB25D /* Main.storyboard */,
-				5B5185601AD467EB001CB25D /* Images.xcassets */,
-				5B5185621AD467EB001CB25D /* LaunchScreen.xib */,
-				5B5185571AD467EB001CB25D /* Emergency_Wisconsin_IOS.xcdatamodeld */,
 				5B5185501AD467EB001CB25D /* Supporting Files */,
 			);
 			path = Emergency_Wisconsin_IOS;
@@ -99,6 +94,11 @@
 		5B5185501AD467EB001CB25D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5B5185571AD467EB001CB25D /* Emergency_Wisconsin_IOS.xcdatamodeld */,
+				5B5185541AD467EB001CB25D /* AppDelegate.h */,
+				5B5185551AD467EB001CB25D /* AppDelegate.m */,
+				5B5185601AD467EB001CB25D /* Images.xcassets */,
+				5B5185621AD467EB001CB25D /* LaunchScreen.xib */,
 				5B5185511AD467EB001CB25D /* Info.plist */,
 				5B5185521AD467EB001CB25D /* main.m */,
 			);
@@ -416,6 +416,7 @@
 				5B5185751AD467EB001CB25D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B5185761AD467EB001CB25D /* Build configuration list for PBXNativeTarget "Emergency_Wisconsin_IOSTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +425,7 @@
 				5B5185781AD467EB001CB25D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
