@@ -10,11 +10,20 @@
 		5B5185531AD467EB001CB25D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5185521AD467EB001CB25D /* main.m */; };
 		5B5185561AD467EB001CB25D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5185551AD467EB001CB25D /* AppDelegate.m */; };
 		5B5185591AD467EB001CB25D /* Emergency_Wisconsin_IOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5B5185571AD467EB001CB25D /* Emergency_Wisconsin_IOS.xcdatamodeld */; };
-		5B51855C1AD467EB001CB25D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B51855B1AD467EB001CB25D /* ViewController.m */; };
 		5B51855F1AD467EB001CB25D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B51855D1AD467EB001CB25D /* Main.storyboard */; };
 		5B5185611AD467EB001CB25D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B5185601AD467EB001CB25D /* Images.xcassets */; };
 		5B5185641AD467EB001CB25D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B5185621AD467EB001CB25D /* LaunchScreen.xib */; };
 		5B5185701AD467EB001CB25D /* Emergency_Wisconsin_IOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B51856F1AD467EB001CB25D /* Emergency_Wisconsin_IOSTests.m */; };
+		5BB3718D1ADB38EB004E2CBD /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB3718C1ADB38EB004E2CBD /* MainMenuViewController.m */; };
+		5BB371911ADB3963004E2CBD /* MainMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB371901ADB3963004E2CBD /* MainMenuTableViewController.m */; };
+		5BB371951ADB39BB004E2CBD /* ResourcesMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB371941ADB39BB004E2CBD /* ResourcesMenuTableViewController.m */; };
+		5BB371981ADB3A00004E2CBD /* AlertsAndWarningsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB371971ADB3A00004E2CBD /* AlertsAndWarningsTableViewController.m */; };
+		5BB3719F1ADB495E004E2CBD /* KitListOptionsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB3719E1ADB495E004E2CBD /* KitListOptionsTableViewController.m */; };
+		5BB371A21ADB4991004E2CBD /* ChecklistsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB371A11ADB4991004E2CBD /* ChecklistsTableViewController.m */; };
+		5BB371A51ADB4B05004E2CBD /* AddChecklistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB371A41ADB4B05004E2CBD /* AddChecklistViewController.m */; };
+		5BB371A81ADB4B1D004E2CBD /* ItemsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB371A71ADB4B1D004E2CBD /* ItemsTableViewController.m */; };
+		5BB371AE1ADB4BA3004E2CBD /* ItemDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB371AD1ADB4BA3004E2CBD /* ItemDetailViewController.m */; };
+		5BB371B11ADB4BB1004E2CBD /* ItemAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB371B01ADB4BB1004E2CBD /* ItemAddViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +43,32 @@
 		5B5185541AD467EB001CB25D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5B5185551AD467EB001CB25D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5B5185581AD467EB001CB25D /* Emergency_Wisconsin_IOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Emergency_Wisconsin_IOS.xcdatamodel; sourceTree = "<group>"; };
-		5B51855A1AD467EB001CB25D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5B51855B1AD467EB001CB25D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5B51855E1AD467EB001CB25D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B5185601AD467EB001CB25D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5B5185631AD467EB001CB25D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		5B5185691AD467EB001CB25D /* Emergency_Wisconsin_IOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Emergency_Wisconsin_IOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B51856E1AD467EB001CB25D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B51856F1AD467EB001CB25D /* Emergency_Wisconsin_IOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Emergency_Wisconsin_IOSTests.m; sourceTree = "<group>"; };
+		5BB3718B1ADB38EB004E2CBD /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
+		5BB3718C1ADB38EB004E2CBD /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
+		5BB3718F1ADB3963004E2CBD /* MainMenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuTableViewController.h; sourceTree = "<group>"; };
+		5BB371901ADB3963004E2CBD /* MainMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuTableViewController.m; sourceTree = "<group>"; };
+		5BB371931ADB39BB004E2CBD /* ResourcesMenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourcesMenuTableViewController.h; sourceTree = "<group>"; };
+		5BB371941ADB39BB004E2CBD /* ResourcesMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourcesMenuTableViewController.m; sourceTree = "<group>"; };
+		5BB371961ADB3A00004E2CBD /* AlertsAndWarningsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertsAndWarningsTableViewController.h; sourceTree = "<group>"; };
+		5BB371971ADB3A00004E2CBD /* AlertsAndWarningsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertsAndWarningsTableViewController.m; sourceTree = "<group>"; };
+		5BB3719D1ADB495E004E2CBD /* KitListOptionsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KitListOptionsTableViewController.h; sourceTree = "<group>"; };
+		5BB3719E1ADB495E004E2CBD /* KitListOptionsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KitListOptionsTableViewController.m; sourceTree = "<group>"; };
+		5BB371A01ADB4991004E2CBD /* ChecklistsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChecklistsTableViewController.h; sourceTree = "<group>"; };
+		5BB371A11ADB4991004E2CBD /* ChecklistsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChecklistsTableViewController.m; sourceTree = "<group>"; };
+		5BB371A31ADB4B05004E2CBD /* AddChecklistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddChecklistViewController.h; sourceTree = "<group>"; };
+		5BB371A41ADB4B05004E2CBD /* AddChecklistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddChecklistViewController.m; sourceTree = "<group>"; };
+		5BB371A61ADB4B1D004E2CBD /* ItemsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemsTableViewController.h; sourceTree = "<group>"; };
+		5BB371A71ADB4B1D004E2CBD /* ItemsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemsTableViewController.m; sourceTree = "<group>"; };
+		5BB371AC1ADB4BA3004E2CBD /* ItemDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemDetailViewController.h; sourceTree = "<group>"; };
+		5BB371AD1ADB4BA3004E2CBD /* ItemDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemDetailViewController.m; sourceTree = "<group>"; };
+		5BB371AF1ADB4BB1004E2CBD /* ItemAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemAddViewController.h; sourceTree = "<group>"; };
+		5BB371B01ADB4BB1004E2CBD /* ItemAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemAddViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +92,7 @@
 		5B5185441AD467EB001CB25D = {
 			isa = PBXGroup;
 			children = (
+				5BB371991ADB4800004E2CBD /* Controllers */,
 				5B51854F1AD467EB001CB25D /* Emergency_Wisconsin_IOS */,
 				5B51856C1AD467EB001CB25D /* Emergency_Wisconsin_IOSTests */,
 				5B51854E1AD467EB001CB25D /* Products */,
@@ -83,8 +111,6 @@
 		5B51854F1AD467EB001CB25D /* Emergency_Wisconsin_IOS */ = {
 			isa = PBXGroup;
 			children = (
-				5B51855A1AD467EB001CB25D /* ViewController.h */,
-				5B51855B1AD467EB001CB25D /* ViewController.m */,
 				5B51855D1AD467EB001CB25D /* Main.storyboard */,
 				5B5185501AD467EB001CB25D /* Supporting Files */,
 			);
@@ -120,6 +146,97 @@
 				5B51856E1AD467EB001CB25D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5BB371991ADB4800004E2CBD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5BB371B61ADB4C84004E2CBD /* Item Detail */,
+				5BB371B51ADB4C2B004E2CBD /* Checklist Kit Options */,
+				5BB371B21ADB4BC9004E2CBD /* Checklist Lists */,
+				5BB371B31ADB4BDA004E2CBD /* Add Checklists */,
+				5BB371B41ADB4BF0004E2CBD /* Items List */,
+				5BB3719A1ADB481D004E2CBD /* Main Menu */,
+				5BB3719B1ADB4863004E2CBD /* Alerts And Warnings */,
+				5BB3719C1ADB486F004E2CBD /* Resources Menu */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		5BB3719A1ADB481D004E2CBD /* Main Menu */ = {
+			isa = PBXGroup;
+			children = (
+				5BB3718F1ADB3963004E2CBD /* MainMenuTableViewController.h */,
+				5BB371901ADB3963004E2CBD /* MainMenuTableViewController.m */,
+				5BB3718B1ADB38EB004E2CBD /* MainMenuViewController.h */,
+				5BB3718C1ADB38EB004E2CBD /* MainMenuViewController.m */,
+			);
+			name = "Main Menu";
+			sourceTree = "<group>";
+		};
+		5BB3719B1ADB4863004E2CBD /* Alerts And Warnings */ = {
+			isa = PBXGroup;
+			children = (
+				5BB371961ADB3A00004E2CBD /* AlertsAndWarningsTableViewController.h */,
+				5BB371971ADB3A00004E2CBD /* AlertsAndWarningsTableViewController.m */,
+			);
+			name = "Alerts And Warnings";
+			sourceTree = "<group>";
+		};
+		5BB3719C1ADB486F004E2CBD /* Resources Menu */ = {
+			isa = PBXGroup;
+			children = (
+				5BB371931ADB39BB004E2CBD /* ResourcesMenuTableViewController.h */,
+				5BB371941ADB39BB004E2CBD /* ResourcesMenuTableViewController.m */,
+			);
+			name = "Resources Menu";
+			sourceTree = "<group>";
+		};
+		5BB371B21ADB4BC9004E2CBD /* Checklist Lists */ = {
+			isa = PBXGroup;
+			children = (
+				5BB371A01ADB4991004E2CBD /* ChecklistsTableViewController.h */,
+				5BB371A11ADB4991004E2CBD /* ChecklistsTableViewController.m */,
+			);
+			name = "Checklist Lists";
+			sourceTree = "<group>";
+		};
+		5BB371B31ADB4BDA004E2CBD /* Add Checklists */ = {
+			isa = PBXGroup;
+			children = (
+				5BB371A31ADB4B05004E2CBD /* AddChecklistViewController.h */,
+				5BB371A41ADB4B05004E2CBD /* AddChecklistViewController.m */,
+			);
+			name = "Add Checklists";
+			sourceTree = "<group>";
+		};
+		5BB371B41ADB4BF0004E2CBD /* Items List */ = {
+			isa = PBXGroup;
+			children = (
+				5BB371A61ADB4B1D004E2CBD /* ItemsTableViewController.h */,
+				5BB371A71ADB4B1D004E2CBD /* ItemsTableViewController.m */,
+			);
+			name = "Items List";
+			sourceTree = "<group>";
+		};
+		5BB371B51ADB4C2B004E2CBD /* Checklist Kit Options */ = {
+			isa = PBXGroup;
+			children = (
+				5BB3719D1ADB495E004E2CBD /* KitListOptionsTableViewController.h */,
+				5BB3719E1ADB495E004E2CBD /* KitListOptionsTableViewController.m */,
+			);
+			name = "Checklist Kit Options";
+			sourceTree = "<group>";
+		};
+		5BB371B61ADB4C84004E2CBD /* Item Detail */ = {
+			isa = PBXGroup;
+			children = (
+				5BB371AC1ADB4BA3004E2CBD /* ItemDetailViewController.h */,
+				5BB371AD1ADB4BA3004E2CBD /* ItemDetailViewController.m */,
+				5BB371AF1ADB4BB1004E2CBD /* ItemAddViewController.h */,
+				5BB371B01ADB4BB1004E2CBD /* ItemAddViewController.m */,
+			);
+			name = "Item Detail";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,10 +339,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BB371951ADB39BB004E2CBD /* ResourcesMenuTableViewController.m in Sources */,
+				5BB3718D1ADB38EB004E2CBD /* MainMenuViewController.m in Sources */,
+				5BB371A81ADB4B1D004E2CBD /* ItemsTableViewController.m in Sources */,
 				5B5185591AD467EB001CB25D /* Emergency_Wisconsin_IOS.xcdatamodeld in Sources */,
+				5BB371A21ADB4991004E2CBD /* ChecklistsTableViewController.m in Sources */,
 				5B5185561AD467EB001CB25D /* AppDelegate.m in Sources */,
-				5B51855C1AD467EB001CB25D /* ViewController.m in Sources */,
+				5BB371A51ADB4B05004E2CBD /* AddChecklistViewController.m in Sources */,
 				5B5185531AD467EB001CB25D /* main.m in Sources */,
+				5BB3719F1ADB495E004E2CBD /* KitListOptionsTableViewController.m in Sources */,
+				5BB371981ADB3A00004E2CBD /* AlertsAndWarningsTableViewController.m in Sources */,
+				5BB371B11ADB4BB1004E2CBD /* ItemAddViewController.m in Sources */,
+				5BB371AE1ADB4BA3004E2CBD /* ItemDetailViewController.m in Sources */,
+				5BB371911ADB3963004E2CBD /* MainMenuTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
