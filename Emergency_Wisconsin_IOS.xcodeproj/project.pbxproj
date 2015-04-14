@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B10A35E1ADB86D400232806 /* MainMenuTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B10A35D1ADB86D400232806 /* MainMenuTabBarController.m */; };
+		5B45C1C31ADCE4FA000B70DE /* ChecklistListsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B45C1C21ADCE4FA000B70DE /* ChecklistListsTableViewCell.m */; };
 		5B5185531AD467EB001CB25D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5185521AD467EB001CB25D /* main.m */; };
 		5B5185561AD467EB001CB25D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5185551AD467EB001CB25D /* AppDelegate.m */; };
 		5B5185591AD467EB001CB25D /* Emergency_Wisconsin_IOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5B5185571AD467EB001CB25D /* Emergency_Wisconsin_IOS.xcdatamodeld */; };
@@ -15,7 +17,6 @@
 		5B5185641AD467EB001CB25D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B5185621AD467EB001CB25D /* LaunchScreen.xib */; };
 		5B5185701AD467EB001CB25D /* Emergency_Wisconsin_IOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B51856F1AD467EB001CB25D /* Emergency_Wisconsin_IOSTests.m */; };
 		5BB3718D1ADB38EB004E2CBD /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB3718C1ADB38EB004E2CBD /* MainMenuViewController.m */; };
-		5BB371911ADB3963004E2CBD /* MainMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB371901ADB3963004E2CBD /* MainMenuTableViewController.m */; };
 		5BB371951ADB39BB004E2CBD /* ResourcesMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB371941ADB39BB004E2CBD /* ResourcesMenuTableViewController.m */; };
 		5BB371981ADB3A00004E2CBD /* AlertsAndWarningsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB371971ADB3A00004E2CBD /* AlertsAndWarningsTableViewController.m */; };
 		5BB3719F1ADB495E004E2CBD /* KitListOptionsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB3719E1ADB495E004E2CBD /* KitListOptionsTableViewController.m */; };
@@ -37,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B10A35C1ADB86D400232806 /* MainMenuTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuTabBarController.h; sourceTree = "<group>"; };
+		5B10A35D1ADB86D400232806 /* MainMenuTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuTabBarController.m; sourceTree = "<group>"; };
+		5B45C1C01ADCC8A4000B70DE /* TableConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableConstants.h; sourceTree = "<group>"; };
+		5B45C1C11ADCE4FA000B70DE /* ChecklistListsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChecklistListsTableViewCell.h; sourceTree = "<group>"; };
+		5B45C1C21ADCE4FA000B70DE /* ChecklistListsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChecklistListsTableViewCell.m; sourceTree = "<group>"; };
 		5B51854D1AD467EB001CB25D /* Emergency_Wisconsin_IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emergency_Wisconsin_IOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B5185511AD467EB001CB25D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B5185521AD467EB001CB25D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -51,8 +57,6 @@
 		5B51856F1AD467EB001CB25D /* Emergency_Wisconsin_IOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Emergency_Wisconsin_IOSTests.m; sourceTree = "<group>"; };
 		5BB3718B1ADB38EB004E2CBD /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
 		5BB3718C1ADB38EB004E2CBD /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
-		5BB3718F1ADB3963004E2CBD /* MainMenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuTableViewController.h; sourceTree = "<group>"; };
-		5BB371901ADB3963004E2CBD /* MainMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuTableViewController.m; sourceTree = "<group>"; };
 		5BB371931ADB39BB004E2CBD /* ResourcesMenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourcesMenuTableViewController.h; sourceTree = "<group>"; };
 		5BB371941ADB39BB004E2CBD /* ResourcesMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourcesMenuTableViewController.m; sourceTree = "<group>"; };
 		5BB371961ADB3A00004E2CBD /* AlertsAndWarningsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertsAndWarningsTableViewController.h; sourceTree = "<group>"; };
@@ -92,6 +96,7 @@
 		5B5185441AD467EB001CB25D = {
 			isa = PBXGroup;
 			children = (
+				5B45C1C01ADCC8A4000B70DE /* TableConstants.h */,
 				5BB371991ADB4800004E2CBD /* Controllers */,
 				5B51854F1AD467EB001CB25D /* Emergency_Wisconsin_IOS */,
 				5B51856C1AD467EB001CB25D /* Emergency_Wisconsin_IOSTests */,
@@ -166,8 +171,8 @@
 		5BB3719A1ADB481D004E2CBD /* Main Menu */ = {
 			isa = PBXGroup;
 			children = (
-				5BB3718F1ADB3963004E2CBD /* MainMenuTableViewController.h */,
-				5BB371901ADB3963004E2CBD /* MainMenuTableViewController.m */,
+				5B10A35C1ADB86D400232806 /* MainMenuTabBarController.h */,
+				5B10A35D1ADB86D400232806 /* MainMenuTabBarController.m */,
 				5BB3718B1ADB38EB004E2CBD /* MainMenuViewController.h */,
 				5BB3718C1ADB38EB004E2CBD /* MainMenuViewController.m */,
 			);
@@ -197,6 +202,8 @@
 			children = (
 				5BB371A01ADB4991004E2CBD /* ChecklistsTableViewController.h */,
 				5BB371A11ADB4991004E2CBD /* ChecklistsTableViewController.m */,
+				5B45C1C11ADCE4FA000B70DE /* ChecklistListsTableViewCell.h */,
+				5B45C1C21ADCE4FA000B70DE /* ChecklistListsTableViewCell.m */,
 			);
 			name = "Checklist Lists";
 			sourceTree = "<group>";
@@ -347,11 +354,12 @@
 				5B5185561AD467EB001CB25D /* AppDelegate.m in Sources */,
 				5BB371A51ADB4B05004E2CBD /* AddChecklistViewController.m in Sources */,
 				5B5185531AD467EB001CB25D /* main.m in Sources */,
+				5B10A35E1ADB86D400232806 /* MainMenuTabBarController.m in Sources */,
 				5BB3719F1ADB495E004E2CBD /* KitListOptionsTableViewController.m in Sources */,
+				5B45C1C31ADCE4FA000B70DE /* ChecklistListsTableViewCell.m in Sources */,
 				5BB371981ADB3A00004E2CBD /* AlertsAndWarningsTableViewController.m in Sources */,
 				5BB371B11ADB4BB1004E2CBD /* ItemAddViewController.m in Sources */,
 				5BB371AE1ADB4BA3004E2CBD /* ItemDetailViewController.m in Sources */,
-				5BB371911ADB3963004E2CBD /* MainMenuTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,6 +481,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				INFOPLIST_FILE = Emergency_Wisconsin_IOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -483,6 +492,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				INFOPLIST_FILE = Emergency_Wisconsin_IOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

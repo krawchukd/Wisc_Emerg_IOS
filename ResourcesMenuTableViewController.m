@@ -9,19 +9,48 @@
 #import "ResourcesMenuTableViewController.h"
 
 @interface ResourcesMenuTableViewController ()
-
+@property (nonatomic, strong) NSArray *arrayOfResourceItems;
+@property (nonatomic, strong) NSDictionary *textAttributes;
 @end
 
 @implementation ResourcesMenuTableViewController
 
+#pragma mark - Setter/Getter
+- (NSArray *)arrayOfResourceItems {
+    if (!_arrayOfResourceItems) {
+        _arrayOfResourceItems = [NSArray arrayWithObjects: @{TITLE : BE_PREPAIRED_TITLE, COLOR : BE_PREPAIRED_COLOR},
+                                 @{TITLE : EMERGENCY_TITLE, COLOR : EMERGENCY_COLOR},
+                                 @{TITLE : DISASTER_RESOURCES_TITLE, COLOR : DISASTER_RESOURCES_COLOR},
+                                 @{TITLE : TYPES_OF_DISASTERS_TITLE, COLOR : TYPES_OF_DISASTERS_COLOR},
+                                 nil];
+    }
+    return _arrayOfResourceItems;
+}
+- (NSDictionary *)textAttributes {
+    if (!_textAttributes) {
+        UIFont *font = [UIFont boldSystemFontOfSize:16.0];
+        UIColor *fontColor = [UIColor whiteColor];
+        _textAttributes = @{NSFontAttributeName : font, NSForegroundColorAttributeName : fontColor};
+    }
+    return _textAttributes;
+}
+
+#pragma mark - Lifecycle
+
+- (instancetype)init
+{
+    if (self = [super init]) {
+        
+    }
+    return self;
+}
+
+- (void)setup {
+    
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -29,72 +58,47 @@
     // Dispose of any resources that can be recreated.
 }
 
+
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 0;
+    return self.arrayOfResourceItems.count;
 }
 
-/*
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"resourceMenuCell" forIndexPath:indexPath];
+    
+    NSDictionary *dictionaryOfRowAttributes = self.arrayOfResourceItems[indexPath.row];
     
     // Configure the cell...
+    cell.textLabel.attributedText = [[NSAttributedString alloc] initWithString:dictionaryOfRowAttributes[@"title"]
+                                                                    attributes:self.textAttributes];
+    cell.backgroundColor = dictionaryOfRowAttributes[@"color"];
     
     return cell;
 }
-*/
 
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
-}
-*/
 
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
-}
-*/
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
-
-/*
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
+    if ([segue.identifier isEqualToString:@"segueToKitListOptions"]) {
+        if ([segue.destinationViewController isKindOfClass:[UINavigationController class]]) {
+            NSLog(@"");
+        }
+    }
 }
-*/
+
 
 @end

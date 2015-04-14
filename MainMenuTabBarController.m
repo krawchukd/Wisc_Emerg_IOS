@@ -1,20 +1,31 @@
 //
-//  MainMenuViewController.m
+//  MainMenuTabBarController.m
 //  Emergency_Wisconsin_IOS
 //
-//  Created by David Krawchuk on 4/12/15.
+//  Created by David Krawchuk on 4/13/15.
 //  Copyright (c) 2015 UniversityOfWisconsinParkside. All rights reserved.
 //
 
-#import "MainMenuViewController.h"
+#import "MainMenuTabBarController.h"
 
-@interface MainMenuViewController ()
-@property (weak, nonatomic) IBOutlet UIView *upperContainer;
-@property (weak, nonatomic) IBOutlet UIView *lowerContainer;
+@interface MainMenuTabBarController ()
 
 @end
 
-@implementation MainMenuViewController
+@implementation MainMenuTabBarController
+
+- (instancetype)init
+{
+    
+    if (self = [super init]) {
+        
+    }
+    return self;
+}
+
+- (void)setup {
+    
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -26,17 +37,14 @@
     // Dispose of any resources that can be recreated.
 }
 
+/*
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
-    if ([segue.identifier isEqualToString:@"segueToKitListOptions"]) {
-        if ([segue.destinationViewController isKindOfClass:[UINavigationController class]]) {
-            
-        }
-    }
 }
+*/
 
 @end

@@ -1,4 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7549" systemVersion="14D131" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Checklist" syncable="YES">
+        <attribute name="progress" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="hasItems" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Item" inverseName="inChecklist" inverseEntity="Item" syncable="YES"/>
+    </entity>
+    <entity name="Description" syncable="YES">
+        <attribute name="contents" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="ofItem" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Item" inverseName="hasDescription" inverseEntity="Item" syncable="YES"/>
+    </entity>
+    <entity name="Item" syncable="YES">
+        <attribute name="complete" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="qty" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="hasDescription" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Description" inverseName="ofItem" inverseEntity="Description" syncable="YES"/>
+        <relationship name="inChecklist" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Checklist" inverseName="hasItems" inverseEntity="Checklist" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Checklist" positionX="52" positionY="-630" width="128" height="88"/>
+        <element name="Item" positionX="-216" positionY="-310" width="128" height="118"/>
+        <element name="Description" positionX="-648" positionY="-154" width="128" height="73"/>
+    </elements>
 </model>
